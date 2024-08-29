@@ -13,7 +13,7 @@ SWAMP is a egalitarian Proof-of-Work (PoW) cryptocurrency building up a global c
 - Permissionless access to YOUR money... unlike banks
 - Optional private send features 
 
-If you like the idea of owning and controlling your own money as well as funding the improvementof mother earthj, feel free to contact us and work with us. For Discussions we use Discord: [Click here to follow invite Link](https://discord.gg/R4FAu6b).  Seek out the Swampcoin channel
+If you like the idea of owning and controlling your own money as well as funding the improvementof mother earthj, feel free to contact us and work with us. For Discussions we use Discord: [Click here to follow invite Link](https://discord.gg/PxwMzE2).  Seek out the Swampcoin channel
 
 ### Coin Specs
 
