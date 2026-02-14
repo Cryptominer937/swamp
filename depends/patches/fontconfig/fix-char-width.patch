@@ -1,5 +1,5 @@
---- a/fcobjs.h
-+++ b/fcobjs.h
+--- a/src/fcobjs.h
++++ b/src/fcobjs.h
 @@ -51,7 +51,6 @@ FC_OBJECT (FOUNDRY,		FcTypeString,	FcCompareString)
  FC_OBJECT (ANTIALIAS,		FcTypeBool,	FcCompareBool)
  FC_OBJECT (HINT_STYLE,		FcTypeInteger,	FcCompareNumber)
