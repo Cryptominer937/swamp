@@ -7,8 +7,8 @@ $(package)_dependencies=freetype expat
 
 define $(package)_set_vars
   $(package)_config_opts=--disable-docs --disable-static
-  $(package)_cc=gcc-7
-  $(package)_cxx=g++-7
+  $(package)_cflags=-D_POSIX_C_SOURCE=200112L
+  $(package)_cxxflags=-D_POSIX_C_SOURCE=200112L
 endef
 
 define $(package)_config_cmds
