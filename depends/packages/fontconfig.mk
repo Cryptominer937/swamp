@@ -7,7 +7,6 @@ $(package)_dependencies=freetype expat
 
 define $(package)_set_vars
   $(package)_config_opts=--disable-docs --disable-shared --enable-static --with-pic
-  $(package)_config_opts+=--sysconfdir=/etc --with-confdir=/etc/fonts --localstatedir=/var
 endef
 
 define $(package)_config_cmds
