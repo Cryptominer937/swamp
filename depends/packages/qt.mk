@@ -168,5 +168,7 @@ endef
 
 define $(package)_postprocess_cmds
   rm -rf native/mkspecs/ native/lib/ lib/cmake/ && \
-  rm -f lib/lib*.la lib/*.prl plugins/*/*.prl
+  rm -f lib/lib*.la lib/*.prl plugins/*/*.prl && \
+  find lib/pkgconfig -name "*.pc" -exec sed -i 's|-L[^ ]*/depends/work/build/[^ ]* ||g' {} \; && \
+  sed -i 's|-lfontconfig|-lfontconfig -lexpat|g' lib/pkgconfig/Qt5XcbQpa.pc
 endef
