@@ -11,7 +11,8 @@ define $(package)_set_vars
 endef
 
 define $(package)_preprocess_cmds
-  patch -p1 < $($(package)_patch_dir)/fix-char-width.patch
+  patch -p1 < $($(package)_patch_dir)/fix-char-width.patch && \
+  rm -f src/fcobjshash.h src/fcobjshash.gperf
 endef
 
 define $(package)_config_cmds
