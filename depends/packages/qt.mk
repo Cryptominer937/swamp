@@ -30,7 +30,6 @@ $(package)_config_opts += -no-cups
 $(package)_config_opts += -no-iconv
 $(package)_config_opts += -no-gif
 $(package)_config_opts += -no-freetype
-$(package)_config_opts += -no-fontconfig
 $(package)_config_opts += -no-nis
 $(package)_config_opts += -pch
 $(package)_config_opts += -no-qml-debug
